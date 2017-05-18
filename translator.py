@@ -13,6 +13,8 @@ testlang_string = re.sub("and", "i", cyrillic_string)
 testlang_string = re.sub("ball", "mach", cyrillic_string)
 testlang_string = re.sub("sing", "pjut", cyrillic_string)
 
+print(testlang_string)
+
 # red = kra
 # blue = ci
 # the = -
