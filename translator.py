@@ -7,11 +7,11 @@ english_string = input("Type some text to translate - e.g. The red and the blue 
 testlang_string = english_string
 
 testlang_string = re.sub("red", "kra", english_string)
-testlang_string = re.sub("blue", "ci", english_string)
-testlang_string = re.sub("the", "-", english_string)
-testlang_string = re.sub("and", "i", english_string)
-testlang_string = re.sub("ball", "mach", english_string)
-testlang_string = re.sub("sing", "pjut", english_string)
+testlang_string = re.sub("blue", "ci", testlang_string)
+testlang_string = re.sub("the", "-", testlang_string)
+testlang_string = re.sub("and", "i", testlang_string)
+testlang_string = re.sub("ball", "mach", testlang_string)
+testlang_string = re.sub("sing", "pjut", testlang_string)
 
 print(testlang_string)
 
